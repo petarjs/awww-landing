@@ -54,6 +54,9 @@ p {
 .mt-lg {
   margin-top: 3rem !important;
 }
+.mt-sm {
+  margin-top: 0.5rem !important;
+}
 .b {
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
@@ -142,5 +145,38 @@ footer {
 
   .button-primary {
     font-size: 16px;
+  }
+}
+
+#mc_embed_signup * {
+  text-align: left;
+}
+
+#mc_embed_signup .button {
+  text-align: center !important;
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+#mc_embed_signup_scroll {
+  display: flex;
+}
+
+#mc_embed_signup_scroll p {
+  margin-bottom: 0;
+}
+
+#mce-EMAIL {
+  margin-right: 0.5rem !important;
+  flex: 2;
+}
+
+@media (max-width: 40.0rem) {
+  #mc_embed_signup_scroll {
+    flex-direction: column;
+  }
+
+  footer .privacy .fl-r {
+    float: none !important;
   }
 }
